@@ -273,7 +273,7 @@ tasks:
 Un ejemplo más completo:
 
 ```
-# setup-app.yml
+# setup-app2.yml
 
 ---
   - hosts: webservers
@@ -319,4 +319,4 @@ Un ejemplo más completo:
 
 
 ---
-&copy;&copy; JLAM, 2020. 
+JLAM, 2020. 
