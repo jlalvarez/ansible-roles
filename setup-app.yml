@@ -3,5 +3,15 @@
 ---
   - hosts: webservers
     become: true 
+
+    vars_files:
+      - secret.yml
+
     roles:
-      - webservers
+      - webservers      
+
+    tasks:
+      - name: variables secretas
+        debug:
+          msg: "{{ secret1 }}"
+
