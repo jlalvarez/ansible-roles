@@ -59,3 +59,4 @@ $ ansible-galaxy roles/webservers init
 ```
 Insertaremos en el main.yml del elemento concreto el contenido deseado.
 
+La web: https://galaxy.ansible.com/ es un repositorio de roles, puede contribuir con la comunidad compartiendo tus roles y usando los que allí se comparten.
