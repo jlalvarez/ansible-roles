@@ -171,7 +171,7 @@ ansible-playbook example.yml --tags "configuration,packages" --list-tasks
 
 Ansible Vault es una característica que permite mantener en, archivos cifrados, los datos confidenciales como contraseñas o claves. Estos archivos se pueden distribuir o colocarlos en un sistema de control de versiones.
 
-El comando "ansible-vault" nos permite crear un fichero encriptado asignandole una password. El flag --vault-id asigna un id específico para el fichero y solicita las password.
+El comando "ansible-vault" nos permite crear un fichero encriptado asignandole una password. El flag --vault-id asigna un id específico para el fichero y solicita las password (password usada pass).
 
 ```
 ansible-vault create --vault-id vault1@prompt secret.yml
